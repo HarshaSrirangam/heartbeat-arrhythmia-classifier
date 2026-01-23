@@ -112,11 +112,11 @@ Output: (batch, 5)
 ### Test Performance
 
 
-| **Overall Test Accuracy** | **98.25%** |
+**Overall Test Accuracy: **  **98.25%** 
 
 ### Per-Class Accuracy
 
-| Class | Test Accuracy | Support |
+| Class | Test Accuracy |
 |-------|--------------|---------|
 | Normal | 99% |
 | Supraventricular | 87% |
@@ -195,17 +195,16 @@ print(f"Confidence: {probabilities[0][predicted_class].item():.2%}")
 ## References
 
 **Dataset:**
-- Moody GB, Mark RG. "The impact of the MIT-BIH Arrhythmia Database." *IEEE Eng in Med and Biol*, 20(3):45-50, 2001.
 - Preprocessed by Shayan Fazeli: https://www.kaggle.com/datasets/shayanfazeli/heartbeat
 
 ---
 
-## 👤 Author
+## Author
 
 Created to explore deep learning in signal analysis
 ---
 
-## 📄 License
+## License
 
 MIT License
 
