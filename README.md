@@ -116,13 +116,14 @@ Output: (batch, 5)
 
 ### Per-Class Accuracy
 
-| Class | Test Accuracy |
-|-------|--------------|---------|
-| Normal | 99% |
-| Supraventricular | 87% |
-| Ventricular | 95% |
-| Fusion | 94% |
-| Unclassifiable | 99% |
+| Class             | Test Accuracy |
+|-------------------|---------------|
+| Normal            | 99%           |
+| Supraventricular  | 87%           |
+| Ventricular       | 95%           |
+| Fusion            | 94%           |
+| Unclassifiable    | 99%           |
+
 
 ---
 
@@ -202,6 +203,7 @@ print(f"Confidence: {probabilities[0][predicted_class].item():.2%}")
 ## Author
 
 Created to explore deep learning in signal analysis
+
 ---
 
 ## License
